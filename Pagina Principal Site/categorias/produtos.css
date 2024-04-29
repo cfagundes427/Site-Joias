@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Lucidity' ;
+    src: url('luciditycd.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #000;
+    margin: auto;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categoria {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.categoria a {
+    display: block;
+}
+
+img {
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,79 @@
+
+
+@font-face {
+    font-family:'Lucidity';
+    src: url('luciditycd.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+}
+
+div {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border: 1px solid #DAA520;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Lucidity';
+    margin: auto;
+    color: #DAA520;
+    font-size: 65px;
+    text-align: center;
+}
+
+label {
+    color: #DAA520;
+    font-family: 'Lucidity';
+    font-size: 20px;
+}
+
+input {
+    color: #000;
+    background-color: #fff;
+    font-family: 'Lucidity';
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
+
+.button {
+    color: #000;
+    background-color: #fff;
+    font-family: 'Lucidity';
+    font-size: 28px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color:#DAA520;
+}
+
+.c {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lucidity';
+    font-size: 20px;
+}
+
+.c :hover{
+    cursor: pointer;
+    background-color:#DAA520;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@font-face {
+    font-family: 'Lucidity' ;
+    src: url('FontsFree-Net-lucidity-condensed.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.imagem-inicial {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shine {
+    position: absolute;
+    top: 45%;
+    right: 35%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: 'Lucidity';
+    font-size: 115px;
+    color:#DAA520; 
+}
+
+.joias {
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: 'Lucidity' ;
+    font-size: 109px;
+    color: #fff;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 44%;
+    top: 2%;
+    position: absolute;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.button {
+    height: 50px;
+    width: 250px;
+    padding: 15px;
+    background-color: #DAA520;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-family: "Abril Fatface", serif;
+    font-size: 21px;
+}
